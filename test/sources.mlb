@@ -1,0 +1,13 @@
+(* Test executable basis: the nbody library (with vendored sml-glm) plus the
+   harness, helpers, and per-area suites. *)
+$(SML_LIB)/basis/basis.mlb
+
+../src/nbody.mlb
+
+harness.sml
+support.sml
+test_quadtree.sml
+test_force.sml
+test_orbit.sml
+entry.sml
+main.sml

@@ -1,0 +1,9 @@
+(* MLB for the sml-nbody library: the vendored sml-glm 2D vectors plus the
+ * N-body sources.  Consumers reference this file.
+ *
+ * sml-glm's glm.mlb is included so consumers (the test suite, examples) can
+ * name `structure Glm` alongside `NBody`. *)
+$(SML_LIB)/basis/basis.mlb
+../lib/github.com/sjqtentacles/sml-glm/glm.mlb
+nbody.sig
+nbody.sml
