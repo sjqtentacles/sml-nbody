@@ -1,5 +1,7 @@
 # sml-nbody
 
+[![CI](https://github.com/sjqtentacles/sml-nbody/actions/workflows/ci.yml/badge.svg)](https://github.com/sjqtentacles/sml-nbody/actions/workflows/ci.yml)
+
 Barnes-Hut quadtree gravitational N-body simulation in pure Standard ML — a
 mass/center-of-mass quadtree, an opening-angle (`theta`) force approximation, a
 direct O(n²) sum for cross-checking, and a symplectic velocity-Verlet
